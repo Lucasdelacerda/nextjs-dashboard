@@ -20,7 +20,9 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/fonts":["app/shared/fonts"],
+      "@/clientComponents":["app/components/clientComponents"]
     }
   },
   "include": [
