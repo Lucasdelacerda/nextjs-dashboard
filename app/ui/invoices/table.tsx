@@ -10,7 +10,8 @@ export default async function InvoicesTable({
 }: {
   query: string;
   currentPage: number;
-}) {
+})//props para serem passadas para o outro componente 
+{
   const invoices = await fetchFilteredInvoices(query, currentPage);
 
   return (
